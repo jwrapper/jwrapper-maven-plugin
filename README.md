@@ -1,4 +1,4 @@
-jwrpaper-maven-plugin
+jwrapper-maven-plugin
 =====================
 
 JWrapper Maven plugin.
