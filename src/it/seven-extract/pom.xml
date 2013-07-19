@@ -1,0 +1,62 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+	<modelVersion>4.0.0</modelVersion>
+
+	<parent>
+		<groupId>com.carrotgarden.base</groupId>
+		<artifactId>carrot-archon</artifactId>
+		<version>1.6.0</version>
+		<relativePath />
+	</parent>
+
+	<groupId>com.carrotgarden.jwrapper</groupId>
+	<artifactId>jwrapper-integrate-seven-extract</artifactId>
+	<version>0.0.0</version>
+	<packaging>pom</packaging>
+
+	<properties>
+
+		<oracleFolder>${java.io.tmpdir}/oracle</oracleFolder>
+		<oracleArtifact>jre-6u45-windows-i586.exe</oracleArtifact>
+
+	</properties>
+
+	<build>
+
+		<plugins>
+
+			<plugin>
+				<groupId>com.carrotgarden.jwrapper</groupId>
+				<artifactId>jwrapper-maven-plugin</artifactId>
+				<version>@project.version@</version>
+				<executions>
+					<execution>
+						<id>java-download</id>
+						<phase>prepare-package</phase>
+						<goals>
+							<goal>java-download</goal>
+						</goals>
+						<configuration>
+							<javaFolderLocal>${oracleFolder}</javaFolderLocal>
+							<javaArtifact>${oracleArtifact}</javaArtifact>
+						</configuration>
+					</execution>
+					<execution>
+						<id>java-extract</id>
+						<phase>prepare-package</phase>
+						<goals>
+							<goal>seven-extract</goal>
+						</goals>
+						<configuration>
+							<sevenArchive>${oracleFolder}/${oracleArtifact}</sevenArchive>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
+
+		</plugins>
+
+	</build>
+
+</project>
