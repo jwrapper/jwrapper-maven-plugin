@@ -8,6 +8,7 @@ script: "mvn deploy --settings settings.xml"
 env:
   global:
     # CI_DEPLOY_USERNAME
-    - secure: "PAlyxcs1IcVz+m3tAPLxai9J2vCyQXgxslgYSzHctIaXy42uq5CTY8dh9T8khKMTpPnIbopaCr4zZtTEXCknhUOuPtRcuA4JDhAa3fGtQ1fChIZL7bcUvNxfTODtghmkA+UH2RViwMPNwoTumEQC6i7ZFknsyiZ0yEUN2x3AtQs="
+    - secure: "Jji7ieGZVoVMyGwI1KZBE6JNFjawSuw9kQw24XWEulpeLNfzjLh2uzDUV95aEm+eNKA37uDuBQVr/YRcb0rWpbl/KqyYKHCixTj1c2N6/FWZDOPlPTGrnYPVYhfmhKN2boCFidSg38dcec5MB0eb/RPZT/T2QLEUg6KDIQ+jv2E=" 
     # CI_DEPLOY_PASSWORD
-    - secure: "gXTvcXkmWI45YrbrPxSD6pZmkiph5SaR7Er/lfKmGsZGL21go/ruihlx5Kn7gxSx8BUKpll5imz/+g4huaiON+NOXIuO1yBbjUHTjTYBzRx0qZXSHA9l8ApEzGmA/4wKu0eEdW7L6uakluKMgQJpzqWHFQYaxTAli3DGM+Z9bfQ=" 
+    - secure: "bkZfu5WTSqUpS2o7XC7K/gfcRQvo48oNziDalo4UsRA6HonMF4nj5b4vlR4H306Vq55orIjmttVVM/YOPq/7Z9iBtyM5GeTDGcTfYylt180I2iahsqjD4PRhlNlPmPYxm/6x/GrN58/LY3uDDJUdFkzszg/l+7nkCdVINgNC0+E="
+    
