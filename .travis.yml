@@ -3,8 +3,7 @@ language: java
 jdk:
   - oraclejdk7
   
-script: "mvn deploy"
-
+script: "mvn deploy --settings settings.xml"
 
 env:
   global:
@@ -12,4 +11,3 @@ env:
     - secure: "PAlyxcs1IcVz+m3tAPLxai9J2vCyQXgxslgYSzHctIaXy42uq5CTY8dh9T8khKMTpPnIbopaCr4zZtTEXCknhUOuPtRcuA4JDhAa3fGtQ1fChIZL7bcUvNxfTODtghmkA+UH2RViwMPNwoTumEQC6i7ZFknsyiZ0yEUN2x3AtQs="
     # CI_DEPLOY_PASSWORD
     - secure: "ipSbCkw5VzavfCIORbzDSDxkTTCDNCc4D6ummmtrkj3xc4ay+EVI5kNKNQ/DoA4n7VC2OhPtpwN7qVTCBU0qFQ9mfvdxi9v4oY5entQ4rpecfBeNqgqk4bbRuGlbKvdAhmBSZrtLl2DSx9bGK5cS0sK13QvSHeTV7y4VlukRPoE="     
-   
