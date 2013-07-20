@@ -10,4 +10,4 @@ env:
     # CI_DEPLOY_USERNAME
     - secure: "PAlyxcs1IcVz+m3tAPLxai9J2vCyQXgxslgYSzHctIaXy42uq5CTY8dh9T8khKMTpPnIbopaCr4zZtTEXCknhUOuPtRcuA4JDhAa3fGtQ1fChIZL7bcUvNxfTODtghmkA+UH2RViwMPNwoTumEQC6i7ZFknsyiZ0yEUN2x3AtQs="
     # CI_DEPLOY_PASSWORD
-    - secure: "ipSbCkw5VzavfCIORbzDSDxkTTCDNCc4D6ummmtrkj3xc4ay+EVI5kNKNQ/DoA4n7VC2OhPtpwN7qVTCBU0qFQ9mfvdxi9v4oY5entQ4rpecfBeNqgqk4bbRuGlbKvdAhmBSZrtLl2DSx9bGK5cS0sK13QvSHeTV7y4VlukRPoE="     
+    - secure: "gXTvcXkmWI45YrbrPxSD6pZmkiph5SaR7Er/lfKmGsZGL21go/ruihlx5Kn7gxSx8BUKpll5imz/+g4huaiON+NOXIuO1yBbjUHTjTYBzRx0qZXSHA9l8ApEzGmA/4wKu0eEdW7L6uakluKMgQJpzqWHFQYaxTAli3DGM+Z9bfQ=" 
